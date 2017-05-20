@@ -1,0 +1,39 @@
+{
+    "name": "aliance/morton",
+    "description": "Z-order curve implementation",
+    "keywords": [
+        "Z-order curve",
+        "Z curve",
+        "Lebesgue curve",
+        "Morton order",
+        "Morton code",
+        "Bit",
+        "Bits",
+        "Bits interleaving",
+        "Morton"
+    ],
+    "homepage": "https://github.com/Aliance/Morton",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aliance",
+            "email": "lesnykh.ilja@gmail.com"
+        }
+    ],
+    "support": {
+        "email": "lesnykh.ilja@gmail.com",
+        "issues": "https://github.com/Aliance/Morton/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aliance\\Morton\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    }
+}
